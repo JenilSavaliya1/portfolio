@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(170, 156, 156);
+    color: rgb(8, 2, 2);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav{
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: #faf9f9;
+    text-decoration: underline; /* Adds underline on hover */
+}
+.nav-link {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+
+
