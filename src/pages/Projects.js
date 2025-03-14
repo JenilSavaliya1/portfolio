@@ -34,7 +34,7 @@ function Projects() {
           </p>
         </div>
         <div className="project-box">
-          <h2> Financial Performance Dashboard for a Retail Company</h2>
+          <h2> Financial Dashboard </h2>
           <p>
             As part of a certificate course, I developed a sophisticated Power BI dashboard,
             leveraging DAX functions and Power Query to analyze over 50,000 financial records,

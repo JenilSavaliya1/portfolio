@@ -4,6 +4,7 @@
   padding: 20px;
   border: 2px solid #c06c61;
   border-radius: 5px;
+  height: 450px;
   background-color: #0e4149;
 }
 .project {
@@ -11,17 +12,20 @@
 }
 .container-box {
   display: flex;
+  min-height: 100vh;
 }
 .project-box h2 {
   color: #07080a;
 }
 .project-box p {
-  text-align: justify;
+  text-align:justify;
 }
 h1 {
   text-align: center;
 }
 .container {
   padding-top: 80px;
-  min-height: 91vh;
+}
+.container p{
+  padding-top: 30px;
 }
