@@ -2,30 +2,26 @@
   margin-bottom: 20px;
   margin: 20px;
   padding: 20px;
-  border: 2px solid #c06c61; 
-  border-radius: 5px; 
+  border: 2px solid #c06c61;
+  border-radius: 5px;
   background-color: #0e4149;
 }
-
-.project{
-    padding-top: 80px;
+.project {
+  padding-top: 80px;
 }
-
-.container-box{
-    display: flex;
+.container-box {
+  display: flex;
 }
-
 .project-box h2 {
   color: #07080a;
 }
 .project-box p {
-  text-align: justify; 
+  text-align: justify;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-
-.container{
-    padding-top: 80px;
-    min-height: 91vh;
+.container {
+  padding-top: 80px;
+  min-height: 91vh;
 }
