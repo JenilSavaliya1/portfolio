@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+  }
+  
+  .lightTheme {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .darkTheme {
+    background-color: #333;
+    color: #fff;
+  }
