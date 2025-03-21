@@ -8,7 +8,6 @@ const fs = require('fs');
 app.use(cors());
 
 app.get('/weather', async (req, res) => {
-    // const city = req.query.city; 
     const apiKey = 'c7947e91255044b293afb8b1755be499'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=Halifax,CA&appid=${apiKey}&units=metric`;
 

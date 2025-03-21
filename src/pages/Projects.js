@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import fetch from "node-fetch";
 import "../Styles/Projects.css";
 
 function Projects() {
