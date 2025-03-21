@@ -15,6 +15,7 @@ app.get('/weather', async (req, res) => {
     try {
         const response = await axios.get(url);
         const { data } = response;
+        console.log(data);        
         res.json({
             city: data.name,
             temperature: data.main.temp,
