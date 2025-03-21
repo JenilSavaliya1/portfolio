@@ -1,6 +1,5 @@
-import React, { useEffect, useState, useContext, use } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { ThemeContext } from '../components/ThemeContext';
-import styles from '../Styles/Home.module.css';
 
 function Home() {
 
@@ -18,7 +17,7 @@ function Home() {
 
   return (
 
-    <div className={`${styles.container} ${themeClass}`}>
+    <div className={`container ${themeClass}`}>
       <h1>Welcome to My Portfolio</h1>
       <p>
         Hi, I am Jenil Savaliya, currently doing my bachelors in Dalhousie University as an
